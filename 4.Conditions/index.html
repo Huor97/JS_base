@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>partie4 Condition</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <!-- parti gauche -->
+        <div class="col-lg-6 bg-secondary">
+          <!-- exo1 -->
+          <div class="col-lg-12 bg-success mt-2">
+            <h1>hello monde!</h1>
+            <p>ouvrer consolle</p>
+          </div>
+          <!-- exo2 -->
+          <div class="col-lg-12 bg-danger mb-2">
+            <form action="">
+              <div class="col-lg-6">
+                <label for="age">Saisie votre âge:</label>
+                <input id="age" type="number" name="age" value="0" />
+              </div>
+              <div id="ageMajeur" class="none">
+                Vous êtes <strong>majeur</strong>.
+              </div>
+              <div id="ageMineur">Vous êtes <strong>mineur</strong>.</div>
+            </form>
+          </div>
+        </div>
+        <!-- parti droit -->
+        <div class="col-lg-6 bg-primary">
+          <div class="row">
+            <div class="row">
+              <div class="col-lg-6">
+                  <!-- exo3 -->
+                  <form action="">
+                    <label for="animaux" class="mt-2">Choisissez votre animaux:</label><br />
+                    <select name="animaux" class="mt-2 mb-2" id="animaux">
+                      <option value="poule" id="poule">la Poule</option>
+                      <option value="canard" id="canard">la Canrad</option>
+                    </select>
+                  </form>
+                  <!-- choisis vitesse de animale -->
+                  <label for="number"
+                    >Écrivez la vitesse de l'Animal:
+                  </label>
+                  <input type="number" value="" id="vitess" />
+                  <p class="mt-2">clicker sur button pour <br> aficher resulta:</p>
+                  <input type="button" id="clickVitess" value="OK"></input>
+                  <!-- Le nombre que vous avez choisis pour animal  -->
+                  <div id="resultPoul" class="none">Le nombre que vous avez choisis <br> pour la poule est : <strong id="resultaP"></strong></div>
+                  <div id="resultCanard" class="none">Le nombre que vous avez choisis <br> pour le canard est : <strong id="resultaC"></strong></div>
+              </div>
+            
+            <div class="col-lg-6">
+              <div class="col-lg-12">
+                <h1>Exercice3</h1>
+                <p>
+                  Dans un formulaire demander à l’utilisateur de choisir entre la poule ou le canard, et lui demander de trouver la vitesse maximale que peut atteindre l’animal choisi.
+                  Indiquer à l’utilisateur si la valeur choisie est trop grande, trop petite ou égale.
+                </p>
+              </div>
+              
+            </div>
+          </div>
+          
+         
+        </div>
+          
+        </div>
+      </div>
+      <!-- fin row -->
+    </div>
+    <!-- fin container -->
+    <script src="main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
