@@ -9,4 +9,6 @@ tous que vous avez besoin pour apprendre js avec des exercices explicites.
 
 N'oubliez pas d'aborder essayer de faire vous même et après regarder la correction.
 
-en plus faites attention vous ne perdez pas dans fichier html car j’ai utilisé un peut de bootstrap aussi. à vous de jouer :)
+en plus faites attention vous ne perdez pas dans fichier html car j’ai utilisé un peut de bootstrap aussi. 
+
+à vous de jouer :)
